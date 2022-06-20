@@ -1,0 +1,22 @@
+uuid: fde4ced0-8ee6-4741-8ddd-5f1a0158191f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - techtv
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: techtv_primary_local_tasks
+theme: techtv
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

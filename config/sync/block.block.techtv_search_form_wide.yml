@@ -1,0 +1,23 @@
+uuid: 6dc957ec-6454-4f92-ab90-094710223928
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - techtv
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: techtv_search_form_wide
+theme: techtv
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

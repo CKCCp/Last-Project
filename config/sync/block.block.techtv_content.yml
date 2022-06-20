@@ -1,0 +1,22 @@
+uuid: a1909fe3-94e5-49a3-b7b7-0817b29914a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - techtv
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: techtv_content
+theme: techtv
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

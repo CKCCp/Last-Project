@@ -1,0 +1,22 @@
+uuid: 074b8ef8-8cc5-4429-80e1-aa86d893e7ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - techtv
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: techtv_help
+theme: techtv
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

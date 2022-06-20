@@ -1,0 +1,22 @@
+uuid: 84a98229-7153-4ee3-be3b-a2f914559b58
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - techtv
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: techtv_powered
+theme: techtv
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

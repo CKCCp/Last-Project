@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 44c41e38-69a0-4baf-bae8-94a28e4d7b0a
+name: 'TechTV Admin Site'
+mail: 0306181002@caothang.edu.vn
+slogan: 'Colors of Life'
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
