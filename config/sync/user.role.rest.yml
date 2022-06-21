@@ -1,0 +1,16 @@
+uuid: 8da494fe-68dc-491a-a89f-915a752f832b
+langcode: en
+status: true
+dependencies:
+  config:
+    - rest.resource.rest_user
+  module:
+    - rest
+id: rest
+label: Rest
+weight: 4
+is_admin: null
+permissions:
+  - 'restful get rest_user'
+  - 'restful patch rest_user'
+  - 'restful post rest_user'
