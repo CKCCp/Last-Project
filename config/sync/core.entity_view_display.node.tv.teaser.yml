@@ -1,0 +1,30 @@
+uuid: f933d5f1-8b3b-476a-a6a0-7ff8a9732b61
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tv.field_n_tv_description
+    - field.field.node.tv.field_n_tv_discount
+    - field.field.node.tv.field_n_tv_image
+    - field.field.node.tv.field_n_tv_name
+    - field.field.node.tv.field_n_tv_price
+    - node.type.tv
+  module:
+    - user
+id: node.tv.teaser
+targetEntityType: node
+bundle: tv
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_n_tv_description: true
+  field_n_tv_discount: true
+  field_n_tv_image: true
+  field_n_tv_name: true
+  field_n_tv_price: true

@@ -1,0 +1,23 @@
+uuid: aadd7f14-904f-47cb-bce8-d0d9bd161ba8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_n_tv_price
+    - node.type.tv
+id: node.tv.field_n_tv_price
+field_name: field_n_tv_price
+entity_type: node
+bundle: tv
+label: Price
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: float

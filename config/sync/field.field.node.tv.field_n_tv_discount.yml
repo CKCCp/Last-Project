@@ -1,0 +1,23 @@
+uuid: 302a8120-d6c3-4f7d-a764-0711b0e31e7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_n_tv_discount
+    - node.type.tv
+id: node.tv.field_n_tv_discount
+field_name: field_n_tv_discount
+entity_type: node
+bundle: tv
+label: Discount
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: '%'
+field_type: float

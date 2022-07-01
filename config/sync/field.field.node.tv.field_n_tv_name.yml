@@ -1,0 +1,21 @@
+uuid: 7f016253-c582-4423-af27-199acebeaa2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_n_tv_name
+    - node.type.tv
+  module:
+    - text
+id: node.tv.field_n_tv_name
+field_name: field_n_tv_name
+entity_type: node
+bundle: tv
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

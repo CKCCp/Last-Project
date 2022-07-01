@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - rest.resource.rest_image
+    - rest.resource.rest_product
     - rest.resource.rest_user
   module:
     - rest
@@ -11,6 +13,13 @@ label: Rest
 weight: 4
 is_admin: null
 permissions:
+  - 'restful delete rest_product'
+  - 'restful delete rest_user'
+  - 'restful get rest_image'
+  - 'restful get rest_product'
   - 'restful get rest_user'
+  - 'restful patch rest_product'
   - 'restful patch rest_user'
+  - 'restful post rest_image'
+  - 'restful post rest_product'
   - 'restful post rest_user'

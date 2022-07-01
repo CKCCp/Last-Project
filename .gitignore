@@ -66,3 +66,4 @@
 .idea
 .DS_Store
 composer.lock
+/config/keys

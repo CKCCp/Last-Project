@@ -1,0 +1,19 @@
+uuid: 5bcfd723-8007-4247-a911-90a20a37621a
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - simple_oauth
+    - techtv
+id: rest_image
+plugin_id: rest_image
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+  formats:
+    - json
+  authentication:
+    - oauth2

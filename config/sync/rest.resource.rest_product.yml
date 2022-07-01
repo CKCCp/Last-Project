@@ -1,0 +1,21 @@
+uuid: be84d40b-11dd-49b2-a661-8dc21e2f2caf
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - simple_oauth
+    - techtv
+id: rest_product
+plugin_id: rest_product
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+    - DELETE
+    - PATCH
+  formats:
+    - json
+  authentication:
+    - oauth2
